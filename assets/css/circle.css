@@ -1,0 +1,154 @@
+.circle_wrap {
+    width: 150px;
+    height: 150px;
+    background: rgb(221,215,205);
+    border-radius: 50%;
+    margin-left:16.5%;
+    float:left;
+}
+.circle_wrap .inside_circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: rgb(173, 164, 164);
+    line-height: 120px;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 15px;
+    position: absolute;
+    z-index: 100;
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+/*球類運動*/
+.circle_wrap .circle_1 .mask,
+.circle_wrap .circle_1 .fill {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.mask .fill {
+    clip: rect(0px, 75px, 150px, 0px);
+    background-color: rgb(108,100,105);
+}
+
+.circle_wrap .circle_1 .mask {
+    clip: rect(0px, 150px, 150px, 75px);
+}
+
+.mask.full_1,
+.circle_1 .fill {
+    animation: fill_1 ease-in-out 5s;
+    transform: rotate(172.8deg);
+    animation-iteration-count: infinite;
+}
+
+@keyframes fill_1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    75%,100% {
+        transform: rotate(172.8deg);
+    }
+}
+
+/*日文*/
+.circle_wrap .circle_2 .mask,
+.circle_wrap .circle_2 .fill {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.mask .fill {
+    clip: rect(0px, 75px, 150px, 0px);
+    background-color: rgb(108,100,105);
+}
+
+.circle_wrap .circle_2 .mask {
+    clip: rect(0px, 150px, 150px, 75px);
+}
+
+.mask.full_2,
+.circle_2 .fill {
+    animation: fill_2 ease-in-out 5s;
+    transform: rotate(133.2deg);
+    animation-iteration-count: infinite;
+}
+
+@keyframes fill_2 {
+    0% {
+        transform: rotate(0deg);
+    }
+    75%,100% {
+        transform: rotate(133.2deg);
+    }
+}
+
+/*倉頡輸入法*/
+.circle_wrap .circle_3 .mask,
+.circle_wrap .circle_3 .fill {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.mask .fill {
+    clip: rect(0px, 75px, 150px, 0px);
+    background-color: rgb(108,100,105);
+}
+
+.circle_wrap .circle_3 .mask {
+    clip: rect(0px, 150px, 150px, 75px);
+}
+
+.mask.full_3,
+.circle_3 .fill {
+    animation: fill_3 ease-in-out 5s;
+    transform: rotate(156.6deg);
+    animation-iteration-count: infinite;
+}
+
+@keyframes fill_3 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    75%,100% {
+        transform: rotate(156.6deg);
+    }
+}
+.sk{
+    width:100%;
+    text-align: center;
+    line-height: 30px;    
+}
+.sk1{
+    width:100%;
+    text-align: center;
+    line-height: 30px;
+    margin-top:50px;
+
+}
+.tdc{
+    width:33%;
+    margin:auto;
+}
+.tdb{
+    width:0.5%;
+}
+.tdn{
+    width:33%;
+}
+.skill_name{
+    font-size: 30px;
+}
+.skill_name_jp{
+    font-size: 22px;
+}

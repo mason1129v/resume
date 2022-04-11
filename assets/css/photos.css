@@ -1,0 +1,630 @@
+/*headshot*/
+.wrapper{
+    background-color:rgb(48, 44, 44);
+    height:250px;
+    width: 250px;
+    overflow:hidden;
+    display:block;
+    position:relative;
+    left:5%;
+    top:-120px;
+    border-radius: 8px;
+    box-shadow: 7px 7px 10px rgb(48, 44, 44);
+    transition: 0.5s;
+}
+.headshot li{
+    height:250px;
+    width: 250px;
+    position:absolute;
+    list-style: none;
+    margin-top:-15.615px;
+    margin-left:-40px;      
+}
+.headshot li img{
+    width:100%;
+    background-attachment: fixed;
+}
+.wrapper:hover{
+    transform: scale(1.05);   
+}
+#hs1{
+    opacity: 0;
+    z-index: 6;
+    animation: turn 60s linear 0s infinite;
+    -webkit-animation: turn 60s linear 0s infinite;
+    -o-animation: turn 60s linear 0s infinite;
+    -moz-animation: turn 60s linear 0s infinite;
+    }
+#hs2{
+    opacity: 0;
+    z-index: 5;
+    animation: turn 60s linear 10s infinite;
+    -webkit-animation: turn 60s linear 10s infinite;
+    -o-animation: turn 60s linear 10s infinite;
+    -moz-animation: turn 60s linear 10s infinite;
+}
+#hs3{
+    opacity: 0;
+    z-index: 4;
+    animation: turn 60s linear 20s infinite;
+    -webkit-animation: turn 60s linear 20s infinite;
+    -o-animation: turn 60s linear 20s infinite;
+    -moz-animation: turn 60s linear 20s infinite;
+}
+#hs4{
+    opacity: 0;
+    z-index: 3;
+    animation: turn 60s linear 30s infinite;
+    -webkit-animation: turn 60s linear 30s infinite;
+    -o-animation: turn 60s linear 30s infinite;
+    -moz-animation: turn 60s linear 30s infinite;
+}
+#hs5{
+    opacity: 0;
+    z-index: 2;
+    animation: turn 60s linear 40s infinite;
+    -webkit-animation: turn 60s linear 40s infinite;
+    -o-animation: turn 60s linear 40s infinite;
+    -moz-animation: turn 60s linear 40s infinite;
+}
+#hs6{
+    opacity: 0;
+    z-index: 1;
+    animation: turn 60s linear 50s infinite;
+    -webkit-animation: turn 60s linear 50s infinite;
+    -o-animation: turn 60s linear 50s infinite;
+    -moz-animation: turn 60s linear 50s infinite;
+}
+/*school*/
+.school_life{
+    background-color:rgb(48, 44, 44);
+    height:230px;
+    width: 310px;
+    overflow:hidden;
+    display:block;
+    position:relative;
+    left:auto;
+    top:10px;
+    border-radius: 8px;
+    box-shadow: 7px 7px 10px rgb(48, 44, 44);
+    transition: 0.5s;
+    margin:15px auto;   
+}
+.school_life:hover{
+    transform: scale(1.05);  
+}
+.childhood li,.sr_h li,.univ li{
+    height:230px;
+    width: 310px;
+    position:absolute;
+    list-style: none;
+    margin-top:-22px;
+    margin-left:-84.225px;
+}
+.childhood li img,.sr_h li img,.univ li img{
+    max-height: 100%;
+    background-attachment: fixed;
+}
+/*childhood*/
+#childhood_1{
+    opacity: 0;
+    z-index: 7;
+    animation: turn 42s linear 0s infinite;
+    -webkit-animation: turn 42s linear 0s infinite;
+    -o-animation: turn 42s linear 0s infinite;
+    -moz-animation: turn 42s linear 0s infinite;
+}
+#childhood_2{
+    opacity: 0;
+    z-index: 6;
+    animation: turn 42s linear 6s infinite;
+    -webkit-animation: turn 42s linear 6s infinite;
+    -o-animation: turn 42s linear 6s infinite;
+    -moz-animation: turn 42s linear 6s infinite;
+}
+#childhood_3{
+    opacity: 0;
+    z-index: 5;
+    animation: turn 42s linear 12s infinite;
+    -webkit-animation: turn 42s linear 12s infinite;
+    -o-animation: turn 42s linear 12s infinite;
+    -moz-animation: turn 42s linear 12s infinite;
+}
+#childhood_4{
+    opacity: 0;
+    z-index: 4;
+    animation: turn 42s linear 18s infinite;
+    -webkit-animation: turn 42s linear 18s infinite;
+    -o-animation: turn 42s linear 18s infinite;
+    -moz-animation: turn 42s linear 18s infinite;
+}   
+#childhood_5{
+    opacity: 0;
+    z-index: 3;
+    animation: turn 42s linear 24s infinite;
+    -webkit-animation: turn 42s linear 24s infinite;
+    -o-animation: turn 42s linear 24s infinite;
+    -moz-animation: turn 42s linear 24s infinite;
+}
+#childhood_6{
+    opacity: 0;
+    z-index: 2;
+    animation: turn 42s linear 30s infinite;
+    -webkit-animation: turn 42s linear 30s infinite;
+    -o-animation: turn 42s linear 30s infinite;
+    -moz-animation: turn 42s linear 30s infinite;
+} 
+#childhood_7{
+    opacity: 0;
+    z-index: 1;
+    animation: turn 42s linear 36s infinite;
+    -webkit-animation: turn 42s linear 36s infinite;
+    -o-animation: turn 42s linear 36s infinite;
+    -moz-animation: turn 42s linear 36s infinite;
+} 
+/*senior high*/
+#sr_1{
+    opacity: 0;
+    z-index: 15;
+    animation: turn2 90s linear 0s infinite;
+    -webkit-animation: turn2 90s linear 0s infinite;
+    -o-animation: turn2 90s linear 0s infinite;
+    -moz-animation: turn2 90s linear 0s infinite;
+}
+#sr_2{
+    opacity: 0;
+    z-index: 14;
+    animation: turn2 90s linear 6s infinite;
+    -webkit-animation: turn2 90s linear 6s infinite;
+    -o-animation: turn2 90s linear 6s infinite;
+    -moz-animation: turn2 90s linear 6s infinite;
+}
+#sr_3{
+    opacity: 0;
+    z-index: 13;
+    animation: turn2 90s linear 12s infinite;
+    -webkit-animation: turn2 90s linear 12s infinite;
+    -o-animation: turn2 90s linear 12s infinite;
+    -moz-animation: turn2 90s linear 12s infinite;
+}
+#sr_4{
+    opacity: 0;
+    z-index: 12;
+    animation: turn2 90s linear 18s infinite;
+    -webkit-animation: turn2 90s linear 18s infinite;
+    -o-animation: turn2 90s linear 18s infinite;
+    -moz-animation: turn2 90s linear 18s infinite;
+}
+#sr_5{
+    opacity: 0;
+    z-index: 11;
+    animation: turn2 90s linear 24s infinite;
+    -webkit-animation: turn2 90s linear 24s infinite;
+    -o-animation: turn2 90s linear 24s infinite;
+    -moz-animation: turn2 90s linear 24s infinite;
+}
+#sr_6{
+    opacity: 0;
+    z-index: 10;
+    animation: turn2 90s linear 30s infinite;
+    -webkit-animation: turn2 90s linear 30s infinite;
+    -o-animation: turn2 90s linear 30s infinite;
+    -moz-animation: turn2 90s linear 30s infinite;
+}
+#sr_7{
+    opacity: 0;
+    z-index: 9;
+    animation: turn2 90s linear 36s infinite;
+    -webkit-animation: turn2 90s linear 36s infinite;
+    -o-animation: turn2 90s linear 36s infinite;
+    -moz-animation: turn2 90s linear 36s infinite;
+}
+#sr_8{
+    opacity: 0;
+    z-index: 8;
+    animation: turn2 90s linear 42s infinite;
+    -webkit-animation: turn2 90s linear 42s infinite;
+    -o-animation: turn2 90s linear 42s infinite;
+    -moz-animation: turn2 90s linear 42s infinite;
+}#sr_9{
+    opacity: 0;
+    z-index: 7;
+    animation: turn2 90s linear 48s infinite;
+    -webkit-animation: turn2 90s linear 48s infinite;
+    -o-animation: turn2 90s linear 48s infinite;
+    -moz-animation: turn2 90s linear 48s infinite;
+}
+#sr_10{
+    opacity: 0;
+    z-index: 6;
+    animation: turn2 90s linear 54s infinite;
+    -webkit-animation: turn2 90s linear 54s infinite;
+    -o-animation: turn2 90s linear 54s infinite;
+    -moz-animation: turn2 90s linear 54s infinite;
+}
+#sr_11{
+    opacity: 0;
+    z-index: 5;
+    animation: turn2 90s linear 60s infinite;
+    -webkit-animation: turn2 90s linear 60s infinite;
+    -o-animation: turn2 90s linear 60s infinite;
+    -moz-animation: turn2 90s linear 60s infinite;
+}
+#sr_12{
+    opacity: 0;
+    z-index: 4;
+    animation: turn2 90s linear 66s infinite;
+    -webkit-animation: turn2 90s linear 66s infinite;
+    -o-animation: turn2 90s linear 66s infinite;
+    -moz-animation: turn2 90s linear 66s infinite;
+}#sr_13{
+    opacity: 0;
+    z-index: 3;
+    animation: turn2 90s linear 72s infinite;
+    -webkit-animation: turn2 90s linear 72s infinite;
+    -o-animation: turn2 90s linear 72s infinite;
+    -moz-animation: turn2 90s linear 72s infinite;
+}
+#sr_14{
+    opacity: 0;
+    z-index: 2;
+    animation: turn2 90s linear 78s infinite;
+    -webkit-animation: turn2 90s linear 78s infinite;
+    -o-animation: turn2 90s linear 78s infinite;
+    -moz-animation: turn2 90s linear 78s infinite;
+}
+#sr_15{
+    opacity: 0;
+    z-index: 1;
+    animation: turn2 90s linear 84s infinite;
+    -webkit-animation: turn2 90s linear 84s infinite;
+    -o-animation: turn2 90s linear 84s infinite;
+    -moz-animation: turn2 90s linear 84s infinite;
+}
+/*univ*/
+#univ_1{
+    opacity: 0;
+    z-index: 6;
+    animation: turn 42s linear 0s infinite;
+    -webkit-animation: turn 42s linear 0s infinite;
+    -o-animation: turn 42s linear 0s infinite;
+    -moz-animation: turn 42s linear 0s infinite;
+}
+#univ_2{
+    opacity: 0;
+    z-index: 5;
+    animation: turn 42s linear 7s infinite;
+    -webkit-animation: turn 42s linear 7s infinite;
+    -o-animation: turn 42s linear 7s infinite;
+    -moz-animation: turn 42s linear 7s infinite;
+}
+#univ_3{
+    opacity: 0;
+    z-index: 4;
+    animation: turn 42s linear 14s infinite;
+    -webkit-animation: turn 42s linear 14s infinite;
+    -o-animation: turn 42s linear 14s infinite;
+    -moz-animation: turn 42s linear 14s infinite;
+}   
+#univ_4{
+    opacity: 0;
+    z-index: 3;
+    animation: turn 42s linear 21s infinite;
+    -webkit-animation: turn 42s linear 21s infinite;
+    -o-animation: turn 42s linear 21s infinite;
+    -moz-animation: turn 42s linear 21s infinite;
+}
+#univ_5{
+    opacity: 0;
+    z-index: 2;
+    animation: turn 42s linear 28s infinite;
+    -webkit-animation: turn 42s linear 28s infinite;
+    -o-animation: turn 42s linear 28s infinite;
+    -moz-animation: turn 42s linear 28s infinite;
+} 
+#univ_6{
+    opacity: 0;
+    z-index: 1;
+    animation: turn 42s linear 35s infinite;
+    -webkit-animation: turn 42s linear 35s infinite;
+    -o-animation: turn 42s linear 35s infinite;
+    -moz-animation: turn 42s linear 35s infinite;
+} 
+/*teams*/
+.ball{
+    background-color:rgb(48, 44, 44);
+    height:230px;
+    width: 310px;
+    overflow:hidden;
+    display:block;
+    position:relative;
+    left:auto;
+    top:0;
+    border-radius: 8px;
+    box-shadow: 7px 7px 10px rgb(48, 44, 44);
+    transition: 0.5s;
+    margin:5px auto;    
+}
+.ball:hover{
+    transform: scale(1.05);  
+}
+.baseball li,.basketball li,.volleyball li{
+    height:230px;
+    width: 310px;
+    position:absolute;
+    list-style: none;
+    margin-top:-22px;
+    margin-left:-84.225px;
+}
+.baseball li img,.basketball li img,.volleyball li img{
+    max-height: 100%;
+    background-attachment: fixed;
+}
+/*baseball*/
+#bb_1{
+    opacity: 0;
+    z-index: 6;
+    animation: turn 42s linear 0s infinite;
+    -webkit-animation: turn 42s linear 0s infinite;
+    -o-animation: turn 42s linear 0s infinite;
+    -moz-animation: turn 42s linear 0s infinite;
+}
+#bb_2{
+    opacity: 0;
+    z-index: 5;
+    animation: turn 42s linear 7s infinite;
+    -webkit-animation: turn 42s linear 7s infinite;
+    -o-animation: turn 42s linear 7s infinite;
+    -moz-animation: turn 42s linear 7s infinite;
+}
+#bb_3{
+    opacity: 0;
+    z-index: 4;
+    animation: turn 42s linear 14s infinite;
+    -webkit-animation: turn 42s linear 14s infinite;
+    -o-animation: turn 42s linear 14s infinite;
+    -moz-animation: turn 42s linear 14s infinite;
+}   
+#bb_4{
+    opacity: 0;
+    z-index: 3;
+    animation: turn 42s linear 21s infinite;
+    -webkit-animation: turn 42s linear 21s infinite;
+    -o-animation: turn 42s linear 21s infinite;
+    -moz-animation: turn 42s linear 21s infinite;
+}
+#bb_5{
+    opacity: 0;
+    z-index: 2;
+    animation: turn 42s linear 28s infinite;
+    -webkit-animation: turn 42s linear 28s infinite;
+    -o-animation: turn 42s linear 28s infinite;
+    -moz-animation: turn 42s linear 28s infinite;
+} 
+#bb_6{
+    opacity: 0;
+    z-index: 1;
+    animation: turn 42s linear 35s infinite;
+    -webkit-animation: turn 42s linear 35s infinite;
+    -o-animation: turn 42s linear 35s infinite;
+    -moz-animation: turn 42s linear 35s infinite;
+} 
+/*basketball*/
+#bsk_1{
+    opacity: 0;
+    z-index: 4;
+    animation: turn1 28s linear 0s infinite;
+    -webkit-animation: turn1 28s linear 0s infinite;
+    -o-animation: turn1 28s linear 0s infinite;
+    -moz-animation: turn1 28s linear 0s infinite;
+}
+#bsk_2{
+    opacity: 0;
+    z-index: 3;
+    animation: turn1 28s linear 7s infinite;
+    -webkit-animation: turn1 28s linear 7s infinite;
+    -o-animation: turn1 28s linear 7s infinite;
+    -moz-animation: turn1 28s linear 7s infinite;
+}
+#bsk_3{
+    opacity: 0;
+    z-index: 2;
+    animation: turn1 28s linear 14s infinite;
+    -webkit-animation: turn1 28s linear 14s infinite;
+    -o-animation: turn1 28s linear 14s infinite;
+    -moz-animation: turn1 28s linear 14s infinite;
+}
+#bsk_4{
+    opacity: 0;
+    z-index: 1;
+    animation: turn1 28s linear 21s infinite;
+    -webkit-animation: turn1 28s linear 21s infinite;
+    -o-animation: turn1 28s linear 21s infinite;
+    -moz-animation: turn1 28s linear 21s infinite;
+}
+/*volleyball*/
+#vb_1{
+    opacity: 0;
+    z-index: 4;
+    animation: turn1 28s linear 0s infinite;
+    -webkit-animation: turn1 28s linear 0s infinite;
+    -o-animation: turn1 28s linear 0s infinite;
+    -moz-animation: turn1 28s linear 0s infinite;
+}
+#vb_2{
+    opacity: 0;
+    z-index: 3;
+    animation: turn1 28s linear 7s infinite;
+    -webkit-animation: turn1 28s linear 7s infinite;
+    -o-animation: turn1 28s linear 7s infinite;
+    -moz-animation: turn1 28s linear 7s infinite;
+}
+#vb_3{
+    opacity: 0;
+    z-index: 2;
+    animation: turn1 28s linear 14s infinite;
+    -webkit-animation: turn1 28s linear 14s infinite;
+    -o-animation: turn1 28s linear 14s infinite;
+    -moz-animation: turn1 28s linear 14s infinite;
+}
+#vb_4{
+    opacity: 0;
+    z-index: 1;
+    animation: turn1 28s linear 21s infinite;
+    -webkit-animation: turn1 28s linear 21s infinite;
+    -o-animation: turn1 28s linear 21s infinite;
+    -moz-animation: turn1 28s linear 21s infinite;
+}
+/*sa*/
+.wr_saphoto{
+    background-color:rgb(48, 44, 44);
+    height:311px;
+    width: 456px;
+    overflow:hidden;
+    display:block;
+    position:relative;
+    left:auto;
+    top:-15px;
+    border-radius: 8px;
+    box-shadow: 7px 7px 10px rgb(48, 44, 44);
+    transition: 0.5s;
+    margin:0px auto;    
+}
+.wr_saphoto:hover{
+    transform: scale(1.05);  
+}
+.saphoto li{
+    height:311px;
+    width: 456px;
+    position:absolute;
+    list-style: none;
+    margin-top:-22px;
+    margin-left:-40px;
+}
+.saphoto li img{
+    max-height: 100%;
+    background-attachment: fixed;
+}
+#sa_1{
+    opacity: 0;
+    z-index: 6;
+    animation: turn 42s linear 0s infinite;
+    -webkit-animation: turn 42s linear 0s infinite;
+    -o-animation: turn 42s linear 0s infinite;
+    -moz-animation: turn 42s linear 0s infinite;
+}
+#sa_2{
+    opacity: 0;
+    z-index: 5;
+    animation: turn 42s linear 7s infinite;
+    -webkit-animation: turn 42s linear 7s infinite;
+    -o-animation: turn 42s linear 7s infinite;
+    -moz-animation: turn 42s linear 7s infinite;
+}
+#sa_3{
+    opacity: 0;
+    z-index: 4;
+    animation: turn 42s linear 14s infinite;
+    -webkit-animation: turn 42s linear 14s infinite;
+    -o-animation: turn 42s linear 14s infinite;
+    -moz-animation: turn 42s linear 14s infinite;
+}   
+#sa_4{
+    opacity: 0;
+    z-index: 3;
+    animation: turn 42s linear 21s infinite;
+    -webkit-animation: turn 42s linear 21s infinite;
+    -o-animation: turn 42s linear 21s infinite;
+    -moz-animation: turn 42s linear 21s infinite;
+}
+#sa_5{
+    opacity: 0;
+    z-index: 2;
+    animation: turn 42s linear 28s infinite;
+    -webkit-animation: turn 42s linear 28s infinite;
+    -o-animation: turn 42s linear 28s infinite;
+    -moz-animation: turn 42s linear 28s infinite;
+} 
+#sa_6{
+    opacity: 0;
+    z-index: 1;
+    animation: turn 42s linear 35s infinite;
+    -webkit-animation: turn 42s linear 35s infinite;
+    -o-animation: turn 42s linear 35s infinite;
+    -moz-animation: turn 42s linear 35s infinite;
+} 
+/*淡入淡出動畫*/
+@keyframes turn{
+    10%{opacity: 1;}
+    20%{opacity: 0.2;}
+    25%{opacity: 0;}
+    100%{opacity: 0;}
+}
+@-o-keyframes turn{
+    10%{opacity: 1;}
+    20%{opacity: 0.2;}
+    25%{opacity: 0;}
+    100%{opacity: 0;}
+}
+@-moz-keyframes turn{
+    10%{opacity: 1;}
+    20%{opacity: 0.2;}
+    25%{opacity: 0;}
+    100%{opacity: 0;}
+}
+@-webkit-keyframes turn{
+    10%{opacity: 1;}
+    20%{opacity: 0.2;}
+    25%{opacity: 0;}
+    100%{opacity: 0;}
+}
+/*bsk,vb*/
+@keyframes turn1{
+    15%{opacity: 1;}
+    25%{opacity: 0.2;}
+    40%{opacity: 0;}
+    100%{opacity: 0;}
+}
+@-o-keyframes turn1{
+    15%{opacity: 1;}
+    25%{opacity: 0.2;}
+    40%{opacity: 0;}
+    100%{opacity: 0;}
+}
+@-moz-keyframes turn1{
+    15%{opacity: 1;}
+    25%{opacity: 0.2;}
+    40%{opacity: 0;}
+    100%{opacity: 0;}
+}
+@-webkit-keyframes turn1{
+    15%{opacity: 1;}
+    25%{opacity: 0.2;}
+    40%{opacity: 0;}
+    100%{opacity: 0;}
+}
+/*sr*/
+@keyframes turn2{
+    4%{opacity: 1;}
+    7%{opacity: 0.2;}
+    10%{opacity: 0;}
+    100%{opacity: 0;}
+}
+@-o-keyframes turn2{
+    10%{opacity: 1;}
+    20%{opacity: 0.2;}
+    25%{opacity: 0;}
+    100%{opacity: 0;}
+}
+@-moz-keyframes turn2{
+    10%{opacity: 1;}
+    20%{opacity: 0.2;}
+    25%{opacity: 0;}
+    100%{opacity: 0;}
+}
+@-webkit-keyframes turn2{
+    10%{opacity: 1;}
+    20%{opacity: 0.2;}
+    25%{opacity: 0;}
+    100%{opacity: 0;}
+}

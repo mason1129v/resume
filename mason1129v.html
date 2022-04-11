@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bar.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/photos.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/circle.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/tab.css">
+    <link rel="icon" type="image/x-icon" href="assets/img/wave.ico">
+    <title>Mason Wu</title>
+</head>
+<body>   
+    <!--封面照,大頭照,基本資訊-->
+    <header class="main" id="top">
+            <div class="head">
+            <img src="assets/img/back_cijin.jpg">
+            </div>
+            <div>
+                <div class="icon"><a href="mailto:hatori1129ckmia@gmail.com"><img src="assets/img/gmail.png"></a></div>
+                <div class="icon"><a href="https://www.facebook.com/profile.php?id=100012178399305" target="_blank"><img src="assets/img/facebook.png"></a></div>
+                <div class="icon"><a href="https://www.instagram.com/mason1129v/?hl=zh-tw" target="_blank"><img src="assets/img/instagram.png"></a></div>               
+            </div>
+            <div class="wrapper">
+                <ul class="headshot">
+                    <li><img src="assets/img/headshot1.jpg" id="hs1"></li> 
+                    <li><img src="assets/img/headshot2.jpg" id="hs2"></li> 
+                    <li><img src="assets/img/headshot3.jpg" id="hs3"></li> 
+                    <li><img src="assets/img/headshot4.jpg" id="hs4"></li> 
+                    <li><img src="assets/img/headshot5.jpg" id="hs5"></li>
+                    <li><img src="assets/img/headshot6.jpg" id="hs6"></li>                   
+                </ul>
+            </div>
+            </div>
+            <div class="name">
+                <p>呉孟軒</p>
+            </div>
+            <div class="name_h">ご もうけん</div>
+            <div class="basic_info">
+                <a href="#">
+                <span>誕生日：平成十三年十一月二十九日<br>
+                出身地：宜蘭県<br>
+                学科：情報管理学科<br>
+                学籍番号：１０９４４２０５</span>
+                生日：2001年11月29日<br>
+                故郷：宜蘭縣<br>
+                系所：資訊管理學系<br>
+                學號：10944205
+            </a>
+            </div>
+    </header>
+    <!--導覽列-->
+    <nav>
+        <ul id="Menu">
+            <li><a href="#intro"><span>僕に関して</span>關於我</a></li>
+            <li><a href="#skill"><span>スキル</span>技能</a></li>
+            <li><a href="#exp"><span>経験</span>經歴</a></li>
+        </ul>
+    </nav>
+    <!--文字簡介-->
+    <section class="intro" id="intro">
+        <span class="title">個人簡介</span>
+        <span class="j_title">自我紹介</span>
+        <hr class="hr_dark">
+        <div class="naiyo">大眼睛長睫毛又有黑眼圈，怎麼吃都吃不胖（羨慕不），休閒時打球看漫畫追日劇聽<a href="https://reurl.cc/mGaEk7" target="_blank" class="text_a">日本流行音樂</a>
+            （心目中前三名的神曲是<a href="https://www.youtube.com/watch?v=SX_ViT4Ra7k&ab_channel=%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%AB" target="_blank" class="text_a">Lemon</a>
+            、<a href="https://www.youtube.com/watch?v=TQ8WlA2GXbk&ab_channel=Official%E9%AB%AD%E7%94%B7dism" target="_blank" class="text_a">Pretender</a>
+            、<a href="https://www.youtube.com/watch?v=x8VYWazR5mE&ab_channel=Ayase%2FYOASOBI" target="_blank" class="text_a">夜に駆ける</a>
+            ），現為系學會執秘、系男排副隊長。</div>
+    </section>
+    <!--座右銘-->
+    <section class="motto" onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">
+        <audio id="mySound" src="assets/mp3/hanenokioku.mp3"></audio>
+        <span class="title">座右銘</span>
+        <span class="j_title">座右の銘</span>
+        <hr class="hr_light">
+        空は飛ぶためにある<br>
+        見上げるためじゃない
+    </section>
+    <!--程式技能-->
+    <section class="programing" id="skill">
+        <span class="title">程式技能</span>
+        <span class="j_title">プログラミング</span>
+        <hr class="hr_mid">
+        <ul class="none">
+            <li><div class="bar"><div class="program_name">C#</div><span class="prpc">60%</sp></div><div class="loading"><div id="pr1"></div></li>
+            <li><div class="bar"><div class="program_name">Java</div><span class="prpc">90%</span></div><div class="loading"><div id="pr2"></div></li>
+            <li><div class="bar"><div class="program_name">HTML</div><span class="prpc">80%</span></div><div class="loading"><div id="pr3"></div></li>
+            <li><div class="bar"><div class="program_name">CSS</div><span class="prpc">75%</span></div><div class="loading"><div id="pr4"></div></li>
+            <li><div class="bar"><div class="program_name">Kotlin</div><span class="prpc">65%</span></div><div class="loading"><div id="pr5"></div></li>
+        </ul>
+    </section>
+    <!--專業技能-->
+    <section class="skill">
+            <span class="title">專業技能</span>
+            <span class="j_title">特技</span>
+            <hr class="hr_mid">
+            <table class="sk1">
+                <tr>
+                    <td class="tdb"></td>
+                    <td class="tdc">
+                    <span class="circle_wrap">
+                        <div class="circle_1">
+                            <div class="mask half">
+                                <div class="fill"></div>
+                            </div>
+                            <div class="mask full_1">
+                                <div class="fill"></div>
+                            </div>
+                        </div>
+                        <div class="inside_circle">96%</div>
+                    </span>
+                    </td>
+                    <td class="tdc">
+                    <span class="circle_wrap">
+                        <div class="circle_2">
+                            <div class="mask half">
+                                <div class="fill"></div>
+                            </div>
+                            <div class="mask full_2">
+                                <div class="fill"></div>
+                            </div>
+                        </div>
+                        <div class="inside_circle">74%</div>
+                    </span>
+                    </td>
+                    <td class="tdc">
+                    <span class="circle_wrap">
+                        <div class="circle_3">
+                            <div class="mask half">
+                                <div class="fill"></div>
+                            </div>
+                            <div class="mask full_3">
+                                <div class="fill"></div>
+                            </div>
+                        </div>
+                        <div class="inside_circle">87%</div>
+                    </span>
+                    </td>
+                    <td class="tdb"></td>
+                </tr>
+            </table>
+            <br>
+            <br>
+            <table class="sk">
+                <tr class="skill_name">
+                    <td class="tdb"></td>
+                    <td class="tdn">球類運動</td>
+                    <td class="tdn">日文</td>
+                    <td class="tdn">倉頡輸入法</td>
+                    <td class="tdb"></td>
+                </tr>
+                <tr class="skill_name_jp">
+                    <td class="tdb"></td>
+                    <td class="tdn">球技</td>                   
+                    <td class="tdn">日本語</td>                    
+                    <td class="tdn">倉頡輸入法</td>
+                    <td class="tdb"></td>
+                </tr>
+        </table>
+    </section>
+    <!--個人經歷-->
+    <section class="exp" id="exp">
+        <span class="title">個人經歴</span>
+        <span class="j_title">経験</span>
+        <hr class="hr_dark">
+        <span id="tab-1" class="nonespan">1</span>
+        <span id="tab-2" class="nonespan">2</span>
+        <span id="tab-3" class="nonespan">3</span>
+        <span id="tab-4" class="nonespan">4</span>
+        <span id="tab-5" class="nonespan">5</span>
+        <span id="tab-6" class="nonespan">6</span>
+        <!-- 頁籤按鈕 -->
+        <div id="tab">
+            <ul>
+                <li><a href="#tab-1"><span class="tab_span">学歴</span>學歴</a></li>
+                <li><a href="#tab-2"><span class="tab_span">プロジェクト</span>課程專案</a></li>
+                <li><a href="#tab-3"><span class="tab_span">実務経験</span>工作經驗</a></li>
+                <li><a href="#tab-4"><span class="tab_span">球技系部活</span>球隊生活</a></li>
+                <li><a href="#tab-5"><span class="tab_span">学科会</span>系學會</a></li>
+                <li><a href="#tab-6"><span class="tab_span">賞状と証明書</span>學業獎状及證書</a></li>
+            </ul>
+            <!-- 頁籤的內容區塊 -->
+            <div class="tab-content-1">
+                <div class="school">
+                    <p class="school_level">國小國中 2008ー2017</p>
+                    <p class="school_title">慈心華德福高中附設國中小</p>
+                    <div class="school_content"><p>從小在這個一直被大家誤認成私立森林小學的學校（我們是公立也不是森林小學），我在沒有什麼考試及作業壓力下無憂無慮地成長，童軍活動以及練習棒球是我假日的主要活動。</p>
+                        <p>在童軍的領域，我在國小時獲得
+                            <span class="text_hover_exc"><span class="hovertext">優秀童軍獎章</span><img src="assets/img/scout_exc.jpg" class="img_hover_exc"></span>，國中時一路考到了童軍次高的等級<span class="text_hover_wall"><span class="hovertext">長城級</span><img src="assets/img/scout_greatwall.jpg" class="img_hover_wall"></span>，也多次隨團參加考驗營等活動。</p>
+                        <p>自加入棒球隊開始，週週都有練球，或著是跟隨球隊南征北討，國小時加入球隊三週便升上一軍並成為先發，國中二年級至畢業為止都擔任球隊隊長，曾經在一場比賽投出四局的無安打比賽，未曾拿下過比賽冠軍是自己比較遺憾的地方。</p>
+                    </div>
+                    <div class="school_life">
+                        <ul class="childhood">
+                            <li><img src="assets/img/jh_cixin.jpg" id="childhood_1"></li> 
+                            <li><img src="assets/img/el_tmates.jpg" id="childhood_2"></li>                            
+                            <li><img src="assets/img/el_exc_scout_pic.jpg" id="childhood_3"></li> 
+                            <li><img src="assets/img/jh_cup.jpg" id="childhood_4"></li> 
+                            <li><img src="assets/img/jh_snowmt.jpg" id="childhood_5"></li> 
+                            <li><img src="assets/img/jh_bnum1.jpg" id="childhood_6"></li>
+                            <li><img src="assets/img/jh_bnum2.jpg" id="childhood_7"></li>
+                        </ul>
+                    </div>
+                    <div class="break_r"></div>
+                    <p class="school_level">高中 2017ー2020</p>
+                    <p class="school_title">慈心華德福高中</p>
+                    <div class="school_content"><p>高中在自己考量後決定繼續在同一個教育體系中學習，經歴了社會服務、職業實習、畢業專題等課程，也參加過學生會擔任財務。</p>
+                        <p>高二時學校成立了排球隊，我也成為了創隊的第一批隊員，高二時擔任<span class="text_hover_cap"><span class="hovertext">隊長</span><img src="assets/img/sh_cixin_captain.jpg" class="img_hover_cap"></span>，也同時是舉球員的角色，高三時球隊首次參加乙組聯賽就以<span class="text_hover_no2"><span class="hovertext">縣第二名</span><img src="assets/img/sh_hvl_yilan.jpg" class="img_hover_no2"></span>的成績進入複賽。</p>
+                        <p>在高中三年内我也三度隨老師出國，三週的澳洲當地生活讓我對自己的英語對話有了自信，也更加的獨立自主；到歐洲參加青年大會同時以單車代歩讓我開了眼界；和排球隊一同前往日本和當地學校球隊共同集訓，除了見識不同的球隊文化外也結識了一些好友。</p>
+                    </div>
+                    <div class="school_life">
+                        <ul class="sr_h">
+                            <li><img src="assets/img/sh_class.jpg" id="sr_1"></li> 
+                            <li><img src="assets/img/sh_aus.jpg" id="sr_2"></li> 
+                            <li><img src="assets/img/sh_vb_dlc.jpg" id="sr_3"></li> 
+                            <li><img src="assets/img/sh_isc_friend.jpg" id="sr_4"></li>
+                            <li><img src="assets/img/sh_isc_heidelberg.jpg" id="sr_5"></li> 
+                            <li><img src="assets/img/sh_vb_jp_gin.jpg" id="sr_6"></li> 
+                            <li><img src="assets/img/sh_vb_jp_group.jpg" id="sr_7"></li> 
+                            <li><img src="assets/img/sh_vb_jp_tour.jpg" id="sr_8"></li> 
+                            <li><img src="assets/img/sh_report.jpg" id="sr_9"></li> 
+                            <li><img src="assets/img/sh_vb_circle.jpg" id="sr_10"></li> 
+                            <li><img src="assets/img/sh_vb_setter.jpg" id="sr_11"></li> 
+                            <li><img src="assets/img/sh_bsk.jpg" id="sr_12"></li> 
+                            <li><img src="assets/img/sh_surf.jpg" id="sr_13"></li> 
+                            <li><img src="assets/img/sh_graduate1.jpg" id="sr_14"></li> 
+                            <li><img src="assets/img/sh_graduate.jpg" id="sr_15"></li>  
+                        </ul>
+                    </div>
+                    <div class="break_r"></div>
+                    <p class="school_level">大學 2020ー現在</p>
+                    <p class="school_title">中原大學</p>
+                    <div class="school_content"><p>透過繁星制度，我來到了中原資管系，當初選擇這裡的主要理由應該是，這裡距離我所喜歡的職棒球隊主場近（誤），由於過去身在不以考試升學為重點的體制，我也很好奇自己能否適應這樣子的環境。</p>
+                        <p>至於我在這裡過得如何又做了些什麼事，繼續往後看看其它頁面的内容就能知道了。</p></div>
+                    <div class="school_life">
+                        <ul class="univ">
+                            <li><img src="assets/img/u_race.jpg" id="univ_1"></li> 
+                            <li><img src="assets/img/u_yilan.jpg" id="univ_2"></li> 
+                            <li><img src="assets/img/u_onepiece.jpg" id="univ_3"></li> 
+                            <li><img src="assets/img/u_xmas.jpg" id="univ_4"></li> 
+                            <li><img src="assets/img/u_ktour.jpg" id="univ_5"></li> 
+                            <li><img src="assets/img/u_kaohsiung.jpg" id="univ_6"></li>
+                        </ul>
+                    </div>
+                </div>           
+            </div>
+            <div class="tab-content-2">
+                <span class="p_photo1">
+                    <img src="assets/img/project_incafe_web.png">
+                </span>
+                <span class="p_photo2">
+                    <img src="assets/img/project_incafe_ins.png">
+                </span>
+                <span class="p_photo3">
+                    <img src="assets/img/project_incafe_video.png">
+                </span>
+                <span class="p_photo4">
+                    <img src="assets/img/project_jsp_notepad.png">
+                </span>
+                <span class="p_photo5">
+                    <img src="assets/img/project_jsp_index.png">
+                </span>
+                <span class="p_photo6">
+                    <img src="assets/img/project_jsp_group.jpg">
+                </span>
+                <span class="p_photo7">
+                    <img src="assets/img/project_android_coder.png">
+                </span>
+                <span class="p_photo8">
+                    <img src="assets/img/project_android_hor.png">
+                </span>
+                <span class="p_photo9">
+                    <img src="assets/img/project_android_ver.png">
+                </span>
+                <table class="project">
+                    <tr>
+                        <td class="pj_t_td">
+                            <p class="pj_title">企業概論ーincafe</p>
+                        </td>
+                        <td class="pj_t_td">
+                            <p class="pj_title">網路程式設計ー衛氏巫師法寶店</p>
+                        </td>
+                        <td class="pj_t_td">
+                            <p class="pj_title">Android程式設計ーCYCU FOOD</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="pj_d_td">
+                            <span class="pj_detail">
+                                <p>大一下學期的企業概論是我們進入資管系的第一個小組專案，我在組中擔任資訊長的角色，負責架設網站及影片製作等工作，由於大家時間經常對不上，不論清晨還是半夜都可能是我們開會的時間。</p><br>
+                                <p>雖然我們抽到的商品是根據過去所知較難銷出的産品，並且還有疫情來攪局打亂了許多預定的計劃，但在組員共同的努力下我們依然取得了不錯的盈收，這次和組員的合作經驗是愉快的，整體來説對於這個專案也是蠻滿意的。</p>
+                            </span>
+                            <span class="pj_button0">
+                                <form method="get" action="https://www.youtube.com/watch?v=eJw0zIeH4bE&ab_channel=%E5%90%B3%E5%AD%9F%E8%BB%92" target="_blank" class="pj_web">
+                                    <input type="submit" value="宣傳影片"></input>
+                                </form>
+                            </span>
+                            <span class="pj_button1">
+                                <form method="get" action="https://hatori1129ckmia.wixsite.com/website-1" target="_blank" class="pj_web">
+                                    <input type="submit" value="專案網站"></input>
+                                </form>
+                            </span>
+                            <span class="pj_button2">
+                                <form method="get" action="https://www.instagram.com/_incafe/" target="_blank" class="pj_web">
+                                    <input type="submit" value="專案IG"></input>
+                                </form>
+                            </span>
+                        </td>
+                        <td class="pj_d_td">
+                            <span class="pj_detail">
+                                <p>雖然團隊早在暑假時就組成，但實際合作的精華基本上都在學期的最後兩週，兩位甲班負責前端的同學在程式方面皆是非常優秀的，我也不希望前後端完成度出現極大落差，於是我和同班的組員在元旦連假廢寢忘食地打程式，連續一週的工作也讓我得了感冒。</p><br>
+                                <p>即使這個專案很耗體力及精神，但毎當成功做出一個功能時就會非常有成就感，幇助到其他同學時也讓我很高興，大家聚在一起努力的畫面更是難忘。</p>
+                            </span>
+                            <span class="pj_button3">
+                                <form method="get" action="https://howardtuan.github.io/poker/" target="_blank" class="pj_web">
+                                    <input type="submit" value="專案網站(純html版)"></input>
+                                </form>
+                            </span>
+                        </td>
+                        <td class="pj_d_td">
+                            <span class="pj_detail">
+                                <p>大二上選修課程的期末專案，以新生為面向開發一個軟體，我們這組選擇做一個推薦中原周遭美食的App。</p><br>
+                                <p>我主要在這次專案負責處理整個程式的架構及測試，也額外自己學習了老師未教的内容並實際應用在其中，老師可以做為知識的引路人，但有更多的東西需要自己去學習去探索，才會讓這些知識更進一成為歩自己的東西。</p>
+                            </span>
+                            <span class="pj_button4">
+                                <form method="get" action="https://youtu.be/FcKVr4FpllM" target="_blank" class="pj_web">
+                                    <input type="submit" value="程式執行影片"></input>
+                                </form>
+                            </span>
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+            <div class="tab-content-3">
+                <div class="work">
+                    <div class="w_photo1">
+                        <img src="assets/img/work_kf3.png">
+                    </div>
+                    <div class="w_photo2">
+                        <img src="assets/img/work_kf2.png">
+                    </div>
+                    <div class="w_photo3">
+                        <img src="assets/img/work_kf1.png">
+                    </div>
+                    <div class="w_content1">
+                        <p class="w_title">康芬老師的教學小天地</p>
+                        <p class="w_detail">在甲班同學的邀請下，我們一同承接了通識中心老師的案子，網頁主題是以老師他個人的教學成果為主，是使用一般人都能容易上手的Wix來製作，在此之前我雖然已經使用這個程式一段時間了，但首次接案仍以學習的態度來面對。這個網站我頁責整個網頁架構的設計以及掌控進度，美編設計的部分則交給甲班的同學，主要工作已經在2021年暑假完成，之後也會繼續負責更新和維護的工作。（註：本網站僅供會員瀏覽）</p>
+                        <form method="get" action="https://cycueduweb2021.wixsite.com/website-2" target="_blank" class="work_web">
+                            <input type="submit" value="前往網站"></input>
+                        </form>
+                    </div>
+                </div>
+                <hr class="workhr">
+                <div class="work">
+                    <div class="w_content2">
+                        <p class="w_title">全球客家中心</p>
+                        <p class="w_detail">和上一個網站是由同一個老師發出的案子，但不同的是其預計的受衆會更廣一些，分工上和上個網站差不多，不過進度掌控就換甲班的同學負責，在過程中也曾受到商設系老師的指教，在製作這些網頁的過程也讓我探索到更多以前沒使用過的功能，同時接案也讓自己的責任感有所提升，雖然不是很大的案子但也是很好的經驗。目前預計今年内還會再從老師那接一個新的案子，也期許自己能從中學到更多事情。</p>
+                        <form method="get" action="https://cycueduweb2021.wixsite.com/website-1" target="_blank" class="work_web">
+                            <input type="submit" value="前往網站"></input>
+                        </form>
+                    </div>
+                    <div class="w_photo4">
+                        <img src="assets/img/work_hk1.png">
+                    </div>
+                    <div class="w_photo5">
+                        <img src="assets/img/work_hk2.png">
+                    </div>
+                    <div class="w_photo6">
+                        <img src="assets/img/work_hk3.png">
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content-4">
+                <div class="team">
+                    <div class="ball">
+                        <ul class="baseball">
+                            <li><img src="assets/img/t_bb_group.jpg" id="bb_1"></li> 
+                            <li><img src="assets/img/t_bb_hitter.jpg" id="bb_2"></li> 
+                            <li><img src="assets/img/t_bb_hitter2.jpg" id="bb_3"></li> 
+                            <li><img src="assets/img/t_bb_p&c.jpg" id="bb_4"></li> 
+                            <li><img src="assets/img/t_bb_pitcher.jpg" id="bb_5"></li>
+                            <li><img src="assets/img/t_bb_pitcher2.jpg" id="bb_6"></li>
+                        </ul>
+                    </div>
+                    <p class="team_title">軟式棒球社 </p><span class="backnumber">背番号:8</span>
+                    <div class="team_content"><p>到大二偶然在社團博覽會才發現學校有軟式棒球社，喜愛棒球的我二話不説馬上就加入了，在練習中慢慢地找回了過去的手感，並且持續用自身速度的優勢在場上奔馳著，和一群棒球癡一起揮灑汗水，而我也將接任下一屆的教學長，一邊提升自己也同時協助練球進行。</p>
+                        <br><p style="text-indent:0px">位置：投手、内野手、外野手</p>
+                        <form method="get" action="https://youtu.be/T07gWFSzdcY" target="_blank" class="sport_video">
+                            <input type="submit" value="個人比賽精華"></input>
+                        </form>
+                    </div>
+                    <span class="break"></span>
+                    <div class="ball">
+                        <ul class="basketball">
+                            <li><img src="assets/img/t_bsk_group.jpg" id="bsk_1"></li> 
+                            <li><img src="assets/img/t_bsk_layup.jpg" id="bsk_2"></li> 
+                            <li><img src="assets/img/t_bsk_fresh.jpg" id="bsk_3"></li> 
+                            <li><img src="assets/img/t_bsk_block.jpg" id="bsk_4"></li> 
+                        </ul>
+                    </div>
+                    <p class="team_title">資管系男籃</p><span class="backnumber">背番号:46</span>
+                    <div class="team_content"><p>原本對於籃球都只有下課打打的程度，上大學後才決定要加入系籃，新生盃我們拿下了第四名的成績，由於同時也參加排球系隊，所以到今年寒假我才首次參加對外比賽，目前自認對籃球的觀念、基本動作等都還不熟悉，還得繼續努力才能找到自己在球隊的定位。</p>
+                        <br><p style="text-indent:0px">位置：得分後衛、小前鋒</p>
+                        <form method="get" action="https://youtu.be/rZpNIlEZxwk" target="_blank" class="sport_video">
+                            <input type="submit" value="個人比賽精華"></input>
+                        </form>
+                    </div>
+                    <span class="break"></span>
+                    <div class="ball">
+                        <ul class="volleyball">
+                            <li><img src="assets/img/t_vb_group.jpg" id="vb_1"></li> 
+                            <li><img src="assets/img/t_vb_serve.jpg" id="vb_2"></li> 
+                            <li><img src="assets/img/t_vb_setter.jpg" id="vb_3"></li> 
+                            <li><img src="assets/img/t_vb_roar.jpg" id="vb_4"></li> 
+                        </ul>
+                    </div>
+                    <p class="team_title">資管系男排</p><span class="backnumber">背番号:9</span>
+                    <div class="team_content"><p>雖然原先沒有意願,但由於高中時是排球隊而被室友拉去打新生盃，在重新拾回對排球的熱情後選擇正式加入系排，也取得了先發的位置，大一起對外比賽場場打滿，也首次更改位置去做主攻手，在寒訓的一週内練起高中從未有過的扣球，升上大二也擔任球隊的副隊長。</p>
+                        <br><p style="text-indent:0px">位置：主攻手、舉球員</p>
+                        <form method="get" action="https://youtu.be/dJNEnQCrWmQ" target="_blank" class="sport_video">
+                            <input type="submit" value="個人比賽精華"></input>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content-5">
+                <table class="sa">
+                    <tr>
+                        <td colspan="2" rowspan="4" class="sa_left">
+                            <span class="saleft">
+                                <p class="sa_title">第33屆系學會執行秘書</p>
+                                <p class="sa_detail_l">在會長三番兩次的詢問（因為找不到人了）之下，我成為第33屆系學會的執秘，在系學會例行會議上主要負責統整會議記録，在會長需要時協助工作，也是新生聯絡的一個窗口，雖然因為疫情，原先預計要擔任總協的活動取消了，但在任期内也一邊觀摩學習到系學會内部的運作方式。此外也在今年獲得績優貢獻獎，而大三我將卸下系學會的工作轉當資管系的學生議員代表，從其它方面繼續為系上做事。</p>
+                            </span>
+                        </td>
+                        <td colspan="2" rowspan="6" class="sa_photo">
+                            <div class="wr_saphoto">
+                                <ul class="saphoto">
+                                    <li><img src="assets/img/sa_imnt_group.jpg" id="sa_1"></li> 
+                                    <li><img src="assets/img/sa_host.jpg" id="sa_2"></li> 
+                                    <li><img src="assets/img/sa_tea1.jpg" id="sa_3"></li> 
+                                    <li><img src="assets/img/sa_tea2.jpg" id="sa_4"></li> 
+                                    <li><img src="assets/img/sa_hikkoshi.jpg" id="sa_5"></li>
+                                    <li><img src="assets/img/sa_meeting.jpg" id="sa_6"></li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                    </tr>
+                    <tr>   
+                    </tr>
+                    <tr>   
+                    </tr>
+                    <tr>
+                        <td colspan="2" rowspan="4" class="sa_left">
+                            <span class="saleft">
+                                <p class="sa_title">110學年度新生體驗營導生</p>
+                                <p class="sa_detail_l">在暑假開始沒多久我就迎來了接任執秘後的第一個工作，為了讓新生能更快適應大學的校園生活，學校舉行了為期兩天的新生體驗營，不過這次由於疫情的關係而首次在線上進行，也因此身為導生的我們要完全掌握整個活動流程的進行，整個暑假都不時會有新的資訊要吸收並公告給新生，很謝謝新生在整個過程的配合讓活動得以順利進行，也特別感謝被我抓來一起當導生的好同伴，這次的經驗讓我學會當一個決策者，也因為新生各式的問題而增強了應對問題的能力。</p>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                    </tr>
+                    <tr>
+                        <td rowspan="6" class="sa_right">
+                            <span class="saright">
+                                <p class="sa_title">新生茶會</p>
+                                <p class="sa_detail_r">雖然原訂在暑假要舉行的茶會因疫情取消，但在開學後一段時間有趨緩的傾向，於是會長號召兩位副會長和我們執秘一同臨時籌劃這次的新生茶會，從時間協調到活動文案，也首次下場擔任隊輔，雖然都不是我所擅長的事，也或許還有很多能改進的地方，但總之完整經歴了這個過程就是好事一件。</p>
+                            </span>
+                        </td>
+                        <td rowspan="6" class="sa_right">
+                            <span class="saright">
+                                <p class="sa_title">系友回娘家主持人</p>
+                                <p class="sa_detail_r">同樣的在疫情的影響下，資管系史上首次在線上進行系友回娘家的活動（據説也是這年唯一仍舉行回娘家活的的系所），我也第一次擔當活動主持人，在有新生體驗營導生的經驗後，對於線上活動的流程掌握也變得熟悉，並且在系助完善的安排下做了幾次的彩排，並討論修改相關内容流程，活動當日雖然設備有突發状況，但在解決後仍在抽獎的歡樂氣氛下結束，是很特別的一次體驗。</p>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                    </tr>
+                    <tr>
+                        <td colspan="2" rowspan="4" class="sa_left">
+                            <span class="saleft">
+                                <p class="sa_title">資管之夜ー諸神資戰活動組</p>
+                                <p class="sa_detail_l">資管之夜是資管系傳統的大型活動，但大一時我在班上僅負責道具製作，並沒有太大的參與感，這次在兩位總協的號召下加入了系學會的示範組，因為練習總是在半夜，隔日還有系隊晨練的我在那段時間經常連續三十個小時以上沒有睡覺，這次做為一個龍套的角色，在跳舞方面有嚴重肢體障礙、不擅長在衆人面前説話的我，跳了兩支舞並做了幾個串場的主持，許多的第一次也代表了我自己的突破，或許不完美，但卻値得回味。</p>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                    </tr>
+                    <tr>
+                    </tr>
+                    <tr>
+                    </tr>   
+                </table>
+            </div>
+            <div class="tab-content-6">
+                <table class="paper">
+                    <tr>
+                        <td><div class="wr_paper"><img src="assets/img/grade_java.jpg"><span class="sj_name">109ー2<br>專業學科優異獎<br>Java</span></div></td>
+                        <td><div class="wr_paper"><img src="assets/img/grade_total.jpg"><span class="sj_name">110ー1<br>書卷獎</span></div></td>
+                        <td><div class="wr_paper"><img src="assets/img/jlptn4.jpg"><span class="sj_name"><br>JLPT<br>N4合格證書</span></div></td>                
+                    </tr>
+                    <tr>
+                        <td><div class="wr_paper"><img src="assets/img/grade_static.jpg"><span class="sj_name">110ー1<br>專業學科優異獎<br>統計學</span></div></td>
+                        <td><div class="wr_paper"><img src="assets/img/grade_datastruc.jpg"><span class="sj_name">110ー1<br>專業學科優異獎<br>資料結構</span></div></td>
+                        <td><div class="wr_paper"><img src="assets/img/jlptn3.jpg"><span class="sj_name"><br>JLPT<br>N3合格證書</span></div></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!--回上方按鈕-->
+    <section>
+        <a href="#top" class="backtop" id="backtop">
+            <div><p class="gotop">回上方</p><img src="assets/img/fuji.png"></div>  
+        </a>
+    </section>
+    <!--版權宣告-->
+    <footer>
+        <div class="copyright">
+        Copyright©2022呉孟軒<br>
+        Mail:hatori1129ckmia@gmail.com<br>
+        Phone:0963574096
+        </div>
+    </footer>    
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="assets/js/backtop.js"></script>
+<script src="assets/js/playmusic.js"></script>
+</html>

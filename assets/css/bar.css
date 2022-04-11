@@ -1,0 +1,109 @@
+ul.none{
+    list-style: none;
+}
+.bar{
+    display:flex;
+    justify-content: left;
+    padding:0px 0px 0px 15%;
+}
+.program_name{
+    font-size: 22px;
+    font-weight: lighter;
+    position:relative;
+    margin:10px auto 10px 0%;
+    float:left;
+}
+.prpc{
+    font-size:22px;
+    font-weight: lighter;
+    position:relative;
+    float:left;
+    margin:10px 40% 10px auto;
+
+}
+.loading{
+    background-color: rgba(184,158,118,0.75);
+    width:70%;
+    height:25px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border:rgba(164,138,98,1) 4px solid;
+    overflow: hidden;
+    position:relative;
+    left:10%;
+}
+#pr1{
+    height:25px;
+    width:60%;
+    background-color: rgb(123,108,83);
+    animation:pro1 10s ease;
+    animation-iteration-count: infinite;
+}
+#pr2{
+    height:25px;
+    width:90%;
+    background-color: rgb(123,108,83);
+    animation:pro2 10s ease;
+    animation-iteration-count: infinite;
+}
+#pr3{
+    height:25px;
+    width:80%;
+    background-color: rgb(123,108,83);
+    animation:pro3 10s ease;
+    animation-iteration-count: infinite;
+}
+#pr4{
+    height:25px;
+    width:75%;
+    background-color: rgb(123,108,83);
+    animation:pro4 10s ease;
+    animation-iteration-count: infinite;
+}
+#pr5{
+    height:25px;
+    width:65%;
+    background-color: rgb(123,108,83);
+    animation:pro5 10s ease;
+    animation-iteration-count: infinite;
+}
+@keyframes pro1{
+    0%{
+        width:0;
+    }
+    50%,100%{
+        width:60%;
+    }
+}
+@keyframes pro2{
+    0%{
+        width:0;
+    }
+    50%,100%{
+        width:90%;
+    }
+}
+@keyframes pro3{
+    0%{
+        width:0;
+    }
+    50%,100%{
+        width:80%;
+    }
+}
+@keyframes pro4{
+    0%{
+        width:0;
+    }
+    50%,100%{
+        width:75%;
+    }
+}
+@keyframes pro5{
+    0%{
+        width:0;
+    }
+    50%,100%{
+        width:65%;
+    }
+}

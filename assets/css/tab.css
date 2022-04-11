@@ -1,0 +1,858 @@
+#tab {
+    width: 96%;
+    margin:auto;
+    border-radius:8px;
+}
+
+/* 頁籤ul */
+#tab > ul {
+    /* overflow: hidden; */
+    margin: 0;
+    padding: 10px 20px 0 20px;
+    overflow:hidden;
+}
+
+#tab > ul > li {
+    list-style-type: none;
+}
+
+/* 頁籤上的文字 */
+#tab > ul > li > a { 
+    text-decoration: none;
+    font-size: 24px;
+    line-height:34px;
+    overflow:hidden;
+    color: black;
+    float: left;
+    margin-left: 5px;
+    height: 24px;
+    text-align:center;
+    background: rgb(123,108,83);
+    border-radius:8px 8px 0 0;
+    padding-top:15px;
+    transition: 0.5s;
+}
+
+/*頁籤div內容*/
+#tab > div {
+    clear: both;
+    padding: 0 15px;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+/*第一筆的底色*/
+span:target ~ #tab > ul li:first-child a {
+    background: rgb(123,108,83);
+}
+span:target ~ #tab > ul li:first-child a:hover{
+    background-color: rgba(123,108,83,0.7);
+}
+span:target ~ #tab > div:first-of-type {
+    visibility: hidden;
+    height: 0;
+    padding: 0 15px;
+}
+
+/*頁籤變換&第一筆*/
+span ~ #tab > ul li:first-child a,
+#tab-1:target ~ #tab > ul li a[href$="#tab-1"],
+#tab-2:target ~ #tab > ul li a[href$="#tab-2"],
+#tab-3:target ~ #tab > ul li a[href$="#tab-3"],
+#tab-4:target ~ #tab > ul li a[href$="#tab-4"],
+#tab-5:target ~ #tab > ul li a[href$="#tab-5"],
+#tab-6:target ~ #tab > ul li a[href$="#tab-6"]{
+    background:  rgb(184,158,118);
+    border-radius: 8px 8px 0 0;
+}
+
+span ~ #tab > ul li:first-child a::before,
+#tab-1:target ~ #tab > ul li a[href$="#tab-1"]::before,
+#tab-2:target ~ #tab > ul li a[href$="#tab-2"]::before,
+#tab-3:target ~ #tab > ul li a[href$="#tab-3"]::before,
+#tab-4:target ~ #tab > ul li a[href$="#tab-4"]::before,
+#tab-5:target ~ #tab > ul li a[href$="#tab-5"]::before,
+#tab-6:target ~ #tab > ul li a[href$="#tab-6"]::before{
+    background-color:  rgb(184,158,118);
+    height: 100%;
+}
+
+/*頁籤內容顯示&第一筆*/
+span ~ #tab > div:first-of-type,
+#tab-1:target ~ #tab > div.tab-content-1,
+#tab-2:target ~ #tab > div.tab-content-2,
+#tab-3:target ~ #tab > div.tab-content-3,
+#tab-4:target ~ #tab > div.tab-content-4,
+#tab-5:target ~ #tab > div.tab-content-5,
+#tab-6:target ~ #tab > div.tab-content-6{
+    visibility: visible;
+    height: 760px;
+    background: rgb(184,158,118);
+    border-radius:8px;
+}
+.nonespan{
+    display: none;
+}
+.tab_span{
+    display: block;
+    margin-top: -42px;
+    text-align: center;
+}
+#tab a:hover{
+    padding-top: 48px;
+    margin-bottom:-48px;
+    padding-right:20px;
+    background-color: rgba(123,108,83,0.7);
+}
+/*第一頁*/
+.school{
+    height: 100%;
+    overflow:hidden;
+    column-count: 3;
+    column-width: 33%;
+    padding:3%;
+    column-gap: 50px;
+    column-rule: gray thin solid;
+}
+.school_level{
+    text-indent:0px;
+    font-size:18px;
+    text-align: left;
+    font-weight: lighter;
+    padding:0;
+    margin:0px;
+}
+.school_title{
+    text-indent: 0px;  
+    font-size: 24px;
+    text-align: left;
+    font-weight: lighter;
+    padding:0;
+    margin:5px 0px 5px;
+}
+.school_content{
+    text-indent: 40px;   
+    font-size: 18px;
+    height:370px;
+    text-align: left;
+    text-indent: 40px;
+    line-height: 20.5px;
+}
+.break_r{
+    margin:15px;
+    height: 10px;
+    width:auto;
+    -webkit-column-break-after: always;
+}
+.text_hover_exc{
+    width:120px;
+    height: 20px;
+    margin:0px;
+    padding: 0px;
+    display: inline-block;
+    text-indent: 0px;
+}
+.text_hover_wall{
+    width:60px;
+    height: 20px;
+    margin:0px;
+    padding: 0px;
+    display: inline-block;
+    text-indent: 0px;
+}
+.text_hover_cap{
+    width:40px;
+    height: 20px;
+    margin:0px;
+    padding: 0px;
+    display: inline-block;
+    text-indent: 0px;
+}
+.text_hover_no2{
+    width:80px;
+    height: 20px;
+    margin:0px;
+    padding: 0px;
+    display: inline-block;
+    text-indent: 0px;
+}
+.hovertext{
+    width: 100%;
+    height: 100%;
+    margin:0px;
+    padding: 0px;
+
+}
+.img_hover_exc{
+    position:absolute;
+    left:18%;
+    width:220px;
+    height: auto;
+    display:none;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgb(48, 44, 44);
+    z-index:100;
+}
+.img_hover_wall{
+    position:absolute;
+    left:18%;
+    width:220px;
+    height: auto;
+    display:none;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgb(48, 44, 44);
+    z-index:100;
+}
+.img_hover_cap{
+    position:absolute;
+    left:43%;
+    width:220px;
+    height: auto;
+    display:none;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgb(48, 44, 44);
+    z-index:100;
+}
+.img_hover_no2{
+    position:absolute;
+    left:43%;
+    width:220px;
+    height: auto;
+    display:none;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgb(48, 44, 44);
+    z-index:100;
+}
+.hovertext:hover{
+    cursor: pointer;
+    color:gray;
+}
+.hovertext:hover+.img_hover_exc,.hovertext:hover+.img_hover_wall,
+.hovertext:hover+.img_hover_cap,.hovertext:hover+.img_hover_no2{
+    display: block;
+    z-index:101;
+}
+/*第二頁*/
+.tab-content-2 span{
+    display: block;
+    margin-top: -42px;
+    text-align: center;
+}
+.project{
+    position:relative;
+    top:-1050px;
+    width: 98%;
+    height:324px;
+    margin:0px auto;
+    vertical-align: top;
+    text-align: left;
+}
+.pj_t_td{
+    width:33%;
+    height:24px;
+}
+.pj_d_td{
+    width: 33%;
+    height: 315px;
+    padding:0px;
+}
+.pj_detail{
+    margin:0px auto;
+    width:96%;
+    height: 270px;
+    text-align: left;
+}
+.pj_detail p{
+    margin:0px auto;
+    text-align: left;
+    text-indent:40px;
+    font-size: 18px;
+    line-height: 20.5px;
+}
+.p_photo1{
+    width:295px;
+    height: 148px;
+    border-radius: 8px;
+    box-shadow: 7px 7px 10px rgb(48, 44, 44);
+    padding:0;
+    background-color:rgb(48, 44, 44);;
+    transition: 0.5s;
+    top:65px;
+    left:2%;
+    position:relative;
+    z-index:9;
+}
+.p_photo2{
+    width:230px;
+    height: 230px;
+    border-radius: 8px;
+    box-shadow: 7px 7px 10px rgb(48, 44, 44);
+    padding:0;
+    background-color:rgb(48, 44, 44);;
+    transition: 0.5s;
+    top:40px;
+    left:7%;
+    position:relative;
+    z-index:11;
+}
+.p_photo3{
+    width:295px;
+    height: 148px;
+    border-radius: 8px;
+    box-shadow: 7px 7px 10px rgb(48, 44, 44);
+    padding:0;
+    background-color:rgb(48, 44, 44);;
+    transition: 0.5s;
+    top:-170px;
+    left:4%;
+    position:relative;
+    z-index:10;
+}
+.p_photo4{
+    width:295px;
+    height: 166px;
+    border-radius: 8px;
+    box-shadow: 7px 7px 10px rgb(48, 44, 44);
+    padding:0;
+    background-color:rgb(48, 44, 44);;
+    transition: 0.5s;
+    top:-335px;
+    left:35%;
+    position:relative;
+    z-index:9;
+}
+.p_photo5{
+    width:295px;
+    height: 146px;
+    border-radius: 8px;
+    box-shadow: 7px 7px 10px rgb(48, 44, 44);
+    padding:0;
+    background-color:rgb(48, 44, 44);;
+    transition: 0.5s;
+    top:-400px;
+    left:37%;
+    position:relative;
+    z-index:10;
+}
+.p_photo6{
+    width:221px;
+    height: 296px;
+    border-radius: 8px;
+    box-shadow: 7px 7px 10px rgb(48, 44, 44);
+    padding:0;
+    background-color:rgb(48, 44, 44);;
+    transition: 0.5s;
+    top:-550px;
+    left:42%;
+    position:relative;
+    z-index:11;
+}
+.p_photo7{
+    width:295px;
+    height: 166px;
+    border-radius: 8px;
+    box-shadow: 7px 7px 10px rgb(48, 44, 44);
+    padding:0;
+    background-color:rgb(48, 44, 44);;
+    transition: 0.5s;
+    top:-820px;
+    left:68%;
+    position:relative;
+    z-index:9;
+}
+.p_photo8{
+    width:295px;
+    height: 166px;
+    border-radius: 8px;
+    box-shadow: 7px 7px 10px rgb(48, 44, 44);
+    padding:0;
+    background-color:rgb(48, 44, 44);;
+    transition: 0.5s;
+    top:-890px;
+    left:70%;
+    position:relative;
+    z-index:10;
+}
+.p_photo9{
+    width:142px;
+    height: 303px;
+    border-radius: 8px;
+    box-shadow: 7px 7px 10px rgb(48, 44, 44);
+    padding:0;
+    background-color:rgb(48, 44, 44);;
+    transition: 0.5s;
+    top:-1060px;
+    left:77%;
+    position:relative;
+    z-index:11;
+}
+.p_photo1 img,.p_photo3 img{
+    margin:0;
+    width:295px;
+    border-radius: 8px;
+    height: 148px;
+    position:relative;
+    left:-44px;
+    top:0;    
+}
+.p_photo2 img{
+    margin:0;
+    width:230px;
+    border-radius: 8px;
+    height: 230px;
+    position:relative;
+    left:-44px;
+    top:0;    
+}
+.p_photo4 img,.p_photo7 img,.p_photo8 img{
+    margin:0;
+    width:295px;
+    border-radius: 8px;
+    height: 166px;
+    position:relative;
+    left:-44px;
+    top:0;    
+}
+.p_photo5 img{
+    margin:0;
+    width:295px;
+    border-radius: 8px;
+    height: 146px;
+    position:relative;
+    left:-44px;
+    top:0;    
+}
+.p_photo6 img{
+    margin:0;
+    width:221px;
+    border-radius: 8px;
+    height: 296px;
+    position:relative;
+    left:-44px;
+    top:0;    
+}
+.p_photo9 img{
+    margin:0;
+    width:142px;
+    border-radius: 8px;
+    height: 303px;
+    position:relative;
+    left:-44px;
+    top:0;    
+}
+.p_photo1:hover,.p_photo2:hover,.p_photo3:hover,
+.p_photo4:hover,.p_photo5:hover,.p_photo6:hover,
+.p_photo7:hover,.p_photo8:hover,.p_photo9:hover{
+    transform: scale(1.1);
+    z-index: 20;
+}
+.pj_title1{
+    position:relative;
+    top:0px;
+    left:10%;
+    font-size: 24px;
+    margin: 0px;
+    text-align: left;
+    text-indent: 0px;
+}
+.pj_button0{
+    width:100px;
+    float: left;
+    top:55px;
+    left:3%;
+    position: relative;
+}
+.pj_button1{
+    width:100px;
+    float: left;
+    top:55px;
+    left:33%;
+    position: relative;
+}
+.pj_button2{
+    width:100px;
+    float: left;
+    top:55px;
+    left:64%;
+    position: relative;
+}
+.pj_button3{
+    width:200px;
+    float: left;
+    top:55px;
+    left:22%;
+    position: relative;
+}
+.pj_button4{
+    width:150px;
+    float: left;
+    top:55px;
+    left:33%;
+    position: relative;
+}
+.pj_web{
+    width:100%;
+    height: 40px;        
+}
+.pj_web input{
+    width: 100%;
+    height: 40px;
+    color:black;
+    font-size: 20px;
+    font-weight: lighter;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(108,100,105,0.8);
+    transition: 0.5s;
+    
+}
+.pj_button0 input:hover,.pj_button1 input:hover,.pj_button2 input:hover,
+.pj_button3 input:hover,.pj_button4 input:hover{
+    cursor: pointer;
+    background-color: rgb(108,100,105);
+    transform: scale(1.1);
+    color:white;
+}
+/*第三頁*/
+.work{
+    height:48%;
+    width: 96%;
+    margin:5px auto;
+}
+.workhr{
+    width:90%;
+    border:0;
+    height:1px;
+    margin:auto;
+    background-color: #5B5B5B;
+}
+.w_photo1{
+    width:384px;
+    height: 216px;
+    border-radius: 8px;
+    box-shadow: 7px 7px 10px rgb(48, 44, 44);
+    padding:0;
+    background-color:rgb(48, 44, 44);;
+    transition: 0.5s;
+    top:15px;
+    left:4%;
+    position:relative;
+    z-index:10;
+}
+.w_photo2{
+    width:384px;
+    height: 216px;
+    border-radius: 8px;
+    box-shadow: 7px 7px 10px rgb(48, 44, 44);
+    padding:0;
+    background-color:rgb(48, 44, 44);;
+    transition: 0.5s;
+    top:-150px;
+    left:8%;
+    position:relative;
+    z-index:9;
+}
+.w_photo3{
+    width:384px;
+    height: 216px;
+    border-radius: 8px;
+    box-shadow: 7px 7px 10px rgb(48, 44, 44);
+    padding:0;
+    background-color:rgb(48, 44, 44);;
+    transition: 0.5s;
+    top:-315px;
+    left:12%;
+    position:relative;
+    z-index:8;
+}
+.w_photo4{
+    width:384px;
+    height: 216px;
+    border-radius: 8px;
+    box-shadow: 7px 7px 10px rgb(48, 44, 44);
+    padding:0;
+    background-color:rgb(48, 44, 44);;
+    transition: 0.5s;
+    top:-305px;
+    left:54%;
+    position:relative;
+    z-index:10;
+}
+.w_photo5{
+    width:384px;
+    height: 216px;
+    border-radius: 8px;
+    box-shadow: 7px 7px 10px rgb(48, 44, 44);
+    padding:0;
+    background-color:rgb(48, 44, 44);;
+    transition: 0.5s;
+    top:-470px;
+    left:58%;
+    position:relative;
+    z-index:9;
+}
+.w_photo6{
+    width:384px;
+    height: 216px;
+    border-radius: 8px;
+    box-shadow: 7px 7px 10px rgb(48, 44, 44);
+    padding:0;
+    background-color:rgb(48, 44, 44);;
+    transition: 0.5s;
+    top:-635px;
+    left:62%;
+    position:relative;
+    z-index:8;
+}
+.w_photo1 img,.w_photo2 img,.w_photo3 img,
+.w_photo4 img,.w_photo5 img,.w_photo6 img{
+    margin:0;
+    width:384px;
+    border-radius: 8px;
+    height: 216px;
+    position:relative;
+    left:-44px;
+    top:0;    
+}
+.w_photo1:hover,.w_photo2:hover,.w_photo3:hover,
+.w_photo4:hover,.w_photo5:hover,.w_photo6:hover{
+    transform: scale(1.1);
+    z-index: 20;
+}
+.w_content1{
+    height: 320px;
+    width:42%;
+    position:relative;
+    left:54%;
+    top:-640px;
+    padding-top:1px;
+    margin-right:10px;
+    border-radius: 8px;
+    line-height: 20.5px;
+}
+.w_content2{
+    height: 320px;
+    width:42%;
+    position:relative;
+    left:4%;
+    top:10px;
+    padding-top:1px;
+    margin-right:10px;
+    border-radius: 8px;
+    line-height: 20.5px;
+}
+.w_title{
+    font-size: 24px;
+    font-weight: lighter;
+    text-align: left;
+    text-indent: 0px;
+    margin:10px 5px 2px;
+}
+.w_detail{
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: left;
+    text-indent: 40px;
+    margin-top:25px;
+    height:230px;
+}
+input{
+    font-family: "tetai-2";
+}
+.work_web{
+    width:100%;
+    height: 40px; 
+    position: relative;
+    top:-25px;
+    left:-5%;
+}
+.work_web input{
+    width: 20%;
+    height: 40px;
+    color:black;
+    font-size: 20px;
+    font-weight: lighter;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(108,100,105,0.8);
+    transition: 0.5s;
+    
+}
+.work_web input:hover{
+    cursor: pointer;
+    background-color: rgb(108,100,105);
+    transform: scale(1.1);
+    color:white;
+}
+/*第四頁*/
+.team{
+    overflow:hidden;
+    column-count: 3;
+    column-width: 33%;
+    padding:3%;
+    column-gap: 50px;
+    column-rule: gray thin solid;
+}
+.team_content{
+    text-indent: 40px;   
+    font-size: 18px;
+    height:440px;
+    text-align: left;
+    position: relative;
+    top:-25px;
+    line-height: 20.5px;
+}
+.break{
+    height: 0;
+    width:0;
+    -webkit-column-break-after: always;
+}
+.team_title{
+    text-indent: 0px;  
+    font-size: 24px;
+    text-align: left;
+    font-weight: lighter;
+    padding:0;
+    margin:20px 0 10ox;
+}
+.sport_video{
+    width:100%;
+    height: 40px; 
+    position: relative;
+    bottom:-30px;
+    left:11%;
+}
+.sport_video input{
+    width: 50%;
+    height: 40px;
+    color:black;
+    font-size: 20px;
+    font-weight: lighter;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(108,100,105,0.8);
+    transition: 0.5s;
+    
+}
+.sport_video input:hover{
+    cursor: pointer;
+    background-color: rgb(108,100,105);
+    transform: scale(1.1);
+    color:white;
+}
+.backnumber{
+    font-size:20px;
+    margin-left:17%;
+    position: relative;
+    top:-42px;
+}
+/*第五頁*/
+.sa{
+    width:98%;
+    height:96%;
+    margin:15px auto auto;
+}
+.sa_left{
+    height:230px;
+    width:50%;
+}
+.sa_photo{
+    height:345px;
+    width:50%;
+}
+.sa_right{
+    height:345px;
+    width:25%;
+}
+.saleft{
+    width: 100%;
+    height: 100%;
+    position:relative;
+    top:-32px;
+}
+.saright{
+    width: 100%;
+    height: 100%;
+    position:relative;
+    top:-30px;
+}
+.sa_title{
+    position:relative;
+    top:30px;
+    left:4%;
+    font-size: 24px;
+    margin: 0px;
+    text-align: left;
+    text-indent: 0px;
+}
+.sa_detail_l{
+    width: 92%;
+    height: 190px;
+    position:relative;
+    top:20px;
+    margin:20px auto;
+    text-align: left;
+    text-indent:40px;
+    font-size: 18px;
+    line-height: 21px;
+}
+.sa_detail_r{
+    width:92%;
+    height: 315px;
+    position:relative;
+    top:30px;
+    margin:20px auto;
+    text-align: left;
+    text-indent:40px;
+    font-size: 18px;
+    line-height: 20.5px;
+}
+/*第六頁*/
+.paper{
+    width:80%;
+    margin:25px auto;
+}
+.paper td{
+    width:20%;
+    padding:15px;
+    margin:auto;
+}
+.wr_paper{
+    width:230px;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    box-shadow: 5px 5px 5px #3C3C3C;
+    transition: 0.5s;
+    margin:auto;
+}
+.wr_paper img{
+    width:100%;
+    border-radius: 8px;
+    display: block;
+    object-fit: cover;
+}
+.sj_name{
+    opacity:0;
+    position:absolute;
+    color:black;
+    top:-30px;
+    left:0px;
+    font-size:24px;
+    width:100%;
+    height:100%;
+    margin:0px 0px;
+    padding-top:55%;
+    text-shadow: 4px 4px 3px white;
+    transition: 0.5s;
+}
+.wr_paper:hover{
+    transform: scale(1.1);
+    border-radius: 8px;
+    transition: 0.5s;
+}
+.wr_paper .sj_name:hover{
+    opacity: 1;
+    transition: opacity 0.8s;
+}

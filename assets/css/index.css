@@ -1,0 +1,331 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "tetai-2";
+    background-color:rgba(211,205,195,0.8);
+    background-blend-mode: multiply;
+    background-image: url("../img/bg_ukayoe.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    width:80%;
+    margin:10px auto;
+}
+@font-face {
+    font-family: 'tetai-2';
+    src: url('../font/tetai-2.ttf') format("truetype");
+}
+.main{
+    height:550px;
+    margin:0px auto;
+    padding:10px;
+    background-color: rgba(135, 155, 156, 0.8);
+    border-radius:8px;;
+    box-shadow: 10px 10px 10px gray;
+    transition: 0.5s;
+}
+.main:hover{
+    background-color: rgb(135,155,156);
+}
+.head{
+    height:400px;
+    width:96%;
+    overflow: hidden;
+    display: block;
+    margin:10px auto 0px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px gray;
+}
+.head img{
+    width: 100%;
+    margin-top:-44%;
+    margin-bottom: -2%;
+}
+.icon{
+    width:70px;
+    height:70px;
+    float:left;
+    position:relative;
+    top:-390px;
+    right:3%;
+    margin-top:auto;
+    margin-right:1%;
+    float:right;
+    z-index: 2;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+.icon img{
+    max-width:100%;
+}
+.icon:hover{
+    transform: scale(1.3);
+    opacity:1;
+}
+.name{
+    font-size: 60px;
+    font-weight: lighter;
+    margin-top:-280px;
+    margin-left:30%;
+    float:left;
+}
+.name_h{
+    font-size:28px;
+    font-weight: lighter;
+    margin-top:-190px;
+    margin-left:47%;
+    float:left;
+}
+.basic_info{
+    font-size:20px;
+    font-weight: lighter;
+    float:left;
+    margin-top:-225px;
+    margin-left:65%;
+    width:360px;
+    height:80px;
+    overflow: hidden;
+    letter-spacing: 2px;
+}
+.basic_info a{
+    color:black;
+    text-decoration: none;
+    font-size:20px;
+    font-weight: lighter;
+    float:left;
+    width:100%;
+    height:80px;
+    line-height: 20px;
+    overflow: hidden;
+    
+}
+.basic_info span{
+    display: block;
+    margin-top:-80px
+}
+.basic_info a:hover{
+    padding-top:80px;
+}
+nav{
+    background-color: rgba(100,127,156,0.8);
+    height:60px;
+    margin:10px auto 40px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px gray;
+    transition: 0.5s;
+}
+nav:hover{
+    background-color: rgb(100,127,156);
+}
+#Menu{
+    width:60%;
+    overflow:hidden;
+    margin:10px auto;
+}
+#Menu ul{
+    margin:10px auto;
+    padding: 0;
+    list-style: none;
+}
+#Menu li{
+    width:33%;
+    height:30px;
+    line-height: 30px;
+    float:left;
+    overflow: hidden;
+    text-align: center;
+    margin-top:15px;
+}
+#Menu a{
+    width:100%;
+    height:30px;
+    float: left;
+    overflow: hidden;
+    color:black;
+    text-decoration: none;
+    font-size:30px;
+    font-weight: lighter;
+}
+#Menu span{
+    display: block;
+    margin-top: -30px;
+}
+#Menu a:hover{
+    padding-top: 30px;
+}
+.intro{
+    width:61%;
+    height:220px;
+    float:left;
+    background-color: rgba(158,147,141,0.8);
+    margin: -25px auto 10px;
+    border-radius: 8px;
+    text-align:center;
+    box-shadow: 10px 10px 10px gray;
+    transition: 0.5s;
+    padding-top:15px;
+}
+.intro:hover{
+    background-color: rgb(158,147,141);
+}
+.naiyo{
+    width:80%;
+    height:auto;
+    margin:20px 10%;
+    text-align: left;
+    text-indent: 40px;
+    font-size:22px;
+    line-height: 24px;
+}
+.text_a{
+    text-decoration: none;
+    color:black;
+    font-weight: lighter;
+    transition: 0.5s;
+}
+.text_a:hover{
+    color: white;
+}
+.motto{
+    font-size:30px;
+    font-weight: lighter;
+    text-align: center;
+    line-height:45px;
+    width:37%;
+    height:220px;
+    float:left;
+    background-color: rgba(171,164,150,0.75);
+    margin: -25px 0 10px 2%;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px gray;
+    transition: 0.5s;
+    padding-top:15px;
+}
+.motto:hover{
+    background-color: rgb(171,164,150);
+    cursor:pointer;
+}
+.title{
+    font-size:45px;
+    font-weight:lighter;
+    margin-top:100px;
+    line-height: 72px;
+    text-align: center;
+}
+.j_title{
+    font-size:25px;
+    font-weight:lighter;
+    text-align: center;
+    line-height:30px;
+    margin:auto;
+}
+hr{
+    border:0;
+    line-height: 10px;
+    height:1px;
+    width:50%;
+    margin-top:0px;
+}
+hr.hr_dark{
+    background-color: #3C3C3C;
+}
+hr.hr_light{     
+    background-color:#7B7B7B;
+}
+hr.hr_mid{
+    background-color: #5B5B5B;
+}
+.programing{
+    width:45%;
+    height:480px;
+    background-color: rgba(184,158,118,0.8);
+    float:left;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 10px 10px 10px gray;
+    transition: 0.5s;
+    padding-top:15px;
+}
+.programing:hover{
+    background-color: rgb(184,158,118);
+}
+.skill{
+    width:53%;
+    height:480px;
+    margin:auto 0% 10px 2%;
+    background-color: rgba(123,108,83,0.8);
+    float:left;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 10px 10px 10px gray;
+    transition: 0.5s;
+    padding-top:15px;
+}
+.skill:hover{
+    background-color: rgb(123,108,83);
+}
+.exp{
+    font-size:22px;
+    font-weight: lighter;
+    text-align: center;
+    text-indent: 44px;
+    width: 100%;
+    height:900px;
+    background-color:rgba(211,205,195,0.8);
+    border-radius: 8px;
+    margin: 0px auto 20px;
+    float: left;
+    letter-spacing: 2px;
+    box-shadow: 10px 10px 10px gray;
+    transition:0.5s;
+    padding-top:15px;
+    padding-bottom: 0;
+}
+.exp:hover{
+    background-color: rgb(211,205,195);
+}
+.backtop{
+    position:fixed;
+    bottom:200px;
+    right:3%;
+    width: 150px;
+    color: black;
+    text-decoration: none;
+}
+.backtop img{
+    position:absolute;
+    width: 100%;
+}
+.gotop{
+    position:relative;
+    bottom:-40px;
+    font-size: 25px;
+    text-align: center;
+    margin: 0px auto;
+    text-shadow: 2px 2px 2px white;
+}
+.backtop img:hover{
+    cursor: pointer;
+}
+.copyright{
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+    width: 100%;
+    height:auto;
+    line-height: 15px;
+    background-color:rgba(57,68,87,0.8);
+    border-radius: 8px;
+    margin: 0px auto 20px;
+    float: left;
+    letter-spacing: 2px;
+    box-shadow: 10px 10px 10px gray;
+    transition: 0.5s;
+    padding:15px 0px 15px 0px;
+}
+.copyright:hover{
+    background-color: rgb(57,68,87);
+}
+
