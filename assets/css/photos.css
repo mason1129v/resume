@@ -339,7 +339,7 @@
     display:block;
     position:relative;
     left:auto;
-    top:0;
+    top:15px;
     border-radius: 8px;
     box-shadow: 7px 7px 10px rgb(48, 44, 44);
     transition: 0.5s;
