@@ -287,9 +287,9 @@ hr.hr_mid{
 }
 .backtop{
     position:fixed;
-    bottom:301px;
+    bottom:130px;
     right:50px;
-    width: 150px;
+    width: 250px;
     color: black;
     text-decoration: none;
 }
