@@ -204,6 +204,8 @@ nav:hover{
 }
 .motto:hover{
     background-color: rgb(171,164,150);
+}
+.title:hover{
     cursor:pointer;
 }
 .title{
@@ -292,6 +294,11 @@ hr.hr_mid{
     width: 250px;
     color: black;
     text-decoration: none;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+.backtop:hover{
+    opacity: 1;
 }
 .backtop img{
     position:absolute;
@@ -299,7 +306,7 @@ hr.hr_mid{
 }
 .gotop{
     position:relative;
-    bottom:-40px;
+    bottom:-60px;
     font-size: 25px;
     text-align: center;
     margin: 0px auto;
