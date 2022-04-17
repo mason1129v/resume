@@ -3,7 +3,7 @@
     height: 150px;
     background: rgb(221,215,205);
     border-radius: 50%;
-    margin-left:16.5%;
+    margin-left:37px;
     float:left;
 }
 .circle_wrap .inside_circle {
@@ -137,14 +137,11 @@
 
 }
 .tdc{
-    width:33%;
+    width:224px;
     margin:auto;
 }
-.tdb{
-    width:0.5%;
-}
 .tdn{
-    width:33%;
+    width:224px;
 }
 .skill_name{
     font-size: 30px;

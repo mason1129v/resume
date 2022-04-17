@@ -1,5 +1,5 @@
 #tab {
-    width: 96%;
+    width: 1220px;
     margin:auto;
     border-radius:8px;
 }
@@ -87,6 +87,7 @@ span ~ #tab > div:first-of-type,
 #tab-5:target ~ #tab > div.tab-content-5,
 #tab-6:target ~ #tab > div.tab-content-6{
     visibility: visible;
+    width:1190px;
     height: 760px;
     background: rgb(184,158,118);
     border-radius:8px;
@@ -110,8 +111,8 @@ span ~ #tab > div:first-of-type,
     height: 100%;
     overflow:hidden;
     column-count: 3;
-    column-width: 33%;
-    padding:3%;
+    column-width: 310px;
+    padding:36px;
     column-gap: 50px;
     column-rule: gray thin solid;
 }
@@ -129,12 +130,13 @@ span ~ #tab > div:first-of-type,
     text-align: left;
     font-weight: lighter;
     padding:0;
-    margin:5px 0px 5px;
+    margin:7px 0px 5px;
 }
 .school_content{
     text-indent: 40px;   
     font-size: 18px;
     height:370px;
+    width:339px;
     text-align: left;
     text-indent: 40px;
     line-height: 20.5px;
@@ -186,7 +188,7 @@ span ~ #tab > div:first-of-type,
 }
 .img_hover_exc{
     position:absolute;
-    left:18%;
+    left:230px;
     width:220px;
     height: auto;
     display:none;
@@ -196,7 +198,7 @@ span ~ #tab > div:first-of-type,
 }
 .img_hover_wall{
     position:absolute;
-    left:18%;
+    left:230px;
     width:220px;
     height: auto;
     display:none;
@@ -206,7 +208,7 @@ span ~ #tab > div:first-of-type,
 }
 .img_hover_cap{
     position:absolute;
-    left:43%;
+    left:650px;
     width:220px;
     height: auto;
     display:none;
@@ -216,7 +218,7 @@ span ~ #tab > div:first-of-type,
 }
 .img_hover_no2{
     position:absolute;
-    left:43%;
+    left:650px;
     width:220px;
     height: auto;
     display:none;
@@ -242,24 +244,24 @@ span ~ #tab > div:first-of-type,
 .project{
     position:relative;
     top:-1050px;
-    width: 98%;
+    width: 1164px;
     height:324px;
     margin:0px auto;
     vertical-align: top;
     text-align: left;
 }
 .pj_t_td{
-    width:33%;
+    width:388px;
     height:24px;
 }
 .pj_d_td{
-    width: 33%;
+    width: 388px;
     height: 315px;
     padding:0px;
 }
 .pj_detail{
     margin:0px auto;
-    width:96%;
+    width:372.48px;
     height: 270px;
     text-align: left;
 }
@@ -279,7 +281,7 @@ span ~ #tab > div:first-of-type,
     background-color:rgb(48, 44, 44);;
     transition: 0.5s;
     top:65px;
-    left:2%;
+    left:23.78px;
     position:relative;
     z-index:9;
 }
@@ -292,7 +294,7 @@ span ~ #tab > div:first-of-type,
     background-color:rgb(48, 44, 44);;
     transition: 0.5s;
     top:40px;
-    left:7%;
+    left:83.266px;
     position:relative;
     z-index:11;
 }
@@ -305,7 +307,7 @@ span ~ #tab > div:first-of-type,
     background-color:rgb(48, 44, 44);;
     transition: 0.5s;
     top:-170px;
-    left:4%;
+    left:47.578px;
     position:relative;
     z-index:10;
 }
@@ -318,7 +320,7 @@ span ~ #tab > div:first-of-type,
     background-color:rgb(48, 44, 44);;
     transition: 0.5s;
     top:-335px;
-    left:35%;
+    left:416.344px;
     position:relative;
     z-index:9;
 }
@@ -331,7 +333,7 @@ span ~ #tab > div:first-of-type,
     background-color:rgb(48, 44, 44);;
     transition: 0.5s;
     top:-400px;
-    left:37%;
+    left:440.125px;
     position:relative;
     z-index:10;
 }
@@ -344,7 +346,7 @@ span ~ #tab > div:first-of-type,
     background-color:rgb(48, 44, 44);;
     transition: 0.5s;
     top:-550px;
-    left:42%;
+    left:499.609px;
     position:relative;
     z-index:11;
 }
@@ -357,7 +359,7 @@ span ~ #tab > div:first-of-type,
     background-color:rgb(48, 44, 44);;
     transition: 0.5s;
     top:-820px;
-    left:68%;
+    left:808.891px;
     position:relative;
     z-index:9;
 }
@@ -370,7 +372,7 @@ span ~ #tab > div:first-of-type,
     background-color:rgb(48, 44, 44);;
     transition: 0.5s;
     top:-890px;
-    left:70%;
+    left:832.688px;
     position:relative;
     z-index:10;
 }
@@ -383,7 +385,7 @@ span ~ #tab > div:first-of-type,
     background-color:rgb(48, 44, 44);;
     transition: 0.5s;
     top:-1060px;
-    left:77%;
+    left:915.953px;
     position:relative;
     z-index:11;
 }
@@ -447,12 +449,10 @@ span ~ #tab > div:first-of-type,
     transform: scale(1.1);
     z-index: 20;
 }
-.pj_title1{
-    position:relative;
-    top:0px;
-    left:10%;
+.pj_title{
+    width:388px;
     font-size: 24px;
-    margin: 0px;
+    margin: 20px auto;
     text-align: left;
     text-indent: 0px;
 }
@@ -460,35 +460,35 @@ span ~ #tab > div:first-of-type,
     width:100px;
     float: left;
     top:55px;
-    left:3%;
+    left:11.563px;
     position: relative;
 }
 .pj_button1{
     width:100px;
     float: left;
     top:55px;
-    left:33%;
+    left:127.344px;
     position: relative;
 }
 .pj_button2{
     width:100px;
     float: left;
     top:55px;
-    left:64%;
+    left:246.984px;
     position: relative;
 }
 .pj_button3{
     width:200px;
     float: left;
     top:55px;
-    left:22%;
+    left:84.891px;
     position: relative;
 }
 .pj_button4{
     width:150px;
     float: left;
     top:55px;
-    left:33%;
+    left:127.344px;
     position: relative;
 }
 .pj_web{
@@ -516,8 +516,8 @@ span ~ #tab > div:first-of-type,
 }
 /*第三頁*/
 .work{
-    height:48%;
-    width: 96%;
+    height:364.797px;
+    width: 1142px;
     margin:5px auto;
 }
 .workhr{
@@ -536,7 +536,7 @@ span ~ #tab > div:first-of-type,
     background-color:rgb(48, 44, 44);;
     transition: 0.5s;
     top:15px;
-    left:4%;
+    left:45.672px;
     position:relative;
     z-index:10;
 }
@@ -549,7 +549,7 @@ span ~ #tab > div:first-of-type,
     background-color:rgb(48, 44, 44);;
     transition: 0.5s;
     top:-150px;
-    left:8%;
+    left:91.344px;
     position:relative;
     z-index:9;
 }
@@ -562,7 +562,7 @@ span ~ #tab > div:first-of-type,
     background-color:rgb(48, 44, 44);;
     transition: 0.5s;
     top:-315px;
-    left:12%;
+    left:137.031px;
     position:relative;
     z-index:8;
 }
@@ -575,7 +575,7 @@ span ~ #tab > div:first-of-type,
     background-color:rgb(48, 44, 44);;
     transition: 0.5s;
     top:-305px;
-    left:54%;
+    left:616.656px;
     position:relative;
     z-index:10;
 }
@@ -588,7 +588,7 @@ span ~ #tab > div:first-of-type,
     background-color:rgb(48, 44, 44);;
     transition: 0.5s;
     top:-470px;
-    left:58%;
+    left:662.328px;
     position:relative;
     z-index:9;
 }
@@ -601,7 +601,7 @@ span ~ #tab > div:first-of-type,
     background-color:rgb(48, 44, 44);;
     transition: 0.5s;
     top:-635px;
-    left:62%;
+    left:708.016px;
     position:relative;
     z-index:8;
 }
@@ -624,7 +624,7 @@ span ~ #tab > div:first-of-type,
     height: 320px;
     width:42%;
     position:relative;
-    left:54%;
+    left:616.656px;
     top:-640px;
     padding-top:1px;
     margin-right:10px;
@@ -635,7 +635,7 @@ span ~ #tab > div:first-of-type,
     height: 320px;
     width:42%;
     position:relative;
-    left:4%;
+    left:45.672px;
     top:10px;
     padding-top:1px;
     margin-right:10px;
@@ -689,8 +689,8 @@ input{
 .team{
     overflow:hidden;
     column-count: 3;
-    column-width: 33%;
-    padding:3%;
+    column-width: 310px;
+    padding:36px;
     column-gap: 50px;
     column-rule: gray thin solid;
 }
@@ -723,7 +723,7 @@ input{
     height: 40px; 
     position: relative;
     bottom:-30px;
-    left:11%;
+    left:37.328px;
 }
 .sport_video input{
     width: 50%;
@@ -745,27 +745,27 @@ input{
 }
 .backnumber{
     font-size:20px;
-    margin-left:17%;
+    margin-left:100px;
     position: relative;
     top:-22px;
 }
 /*第五頁*/
 .sa{
-    width:98%;
-    height:96%;
+    width:1166px;
+    height:776px;
     margin:15px auto auto;
 }
 .sa_left{
     height:230px;
-    width:50%;
+    width:576.875px;
 }
 .sa_photo{
     height:345px;
-    width:50%;
+    width:578.891px;
 }
 .sa_right{
-    height:345px;
-    width:25%;
+    height:421px;
+    width:287.438px;
 }
 .saleft{
     width: 100%;
@@ -784,13 +784,13 @@ input{
     top:30px;
     left:4%;
     font-size: 24px;
-    margin: 0px;
+    margin-top: 5px;
     text-align: left;
     text-indent: 0px;
 }
 .sa_detail_l{
-    width: 92%;
-    height: 190px;
+    width: 530px;
+    height: 180px;
     position:relative;
     top:20px;
     margin:20px auto;
@@ -800,7 +800,7 @@ input{
     line-height: 21px;
 }
 .sa_detail_r{
-    width:92%;
+    width:264px;
     height: 315px;
     position:relative;
     top:30px;
@@ -812,11 +812,11 @@ input{
 }
 /*第六頁*/
 .paper{
-    width:80%;
+    width:952px;
     margin:25px auto;
 }
 .paper td{
-    width:20%;
+    width:285px;
     padding:15px;
     margin:auto;
 }
@@ -845,7 +845,7 @@ input{
     width:100%;
     height:100%;
     margin:0px 0px;
-    padding-top:55%;
+    padding-top:126.5px;
     text-shadow: 4px 4px 3px white;
     transition: 0.5s;
 }

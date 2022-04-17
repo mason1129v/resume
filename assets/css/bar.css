@@ -4,13 +4,13 @@ ul.none{
 .bar{
     display:flex;
     justify-content: left;
-    padding:0px 0px 0px 15%;
+    padding:0px 0px 0px 80px;
 }
 .program_name{
     font-size: 22px;
     font-weight: lighter;
     position:relative;
-    margin:10px auto 10px 0%;
+    margin:10px auto 10px 0px;
     float:left;
 }
 .prpc{
@@ -18,19 +18,18 @@ ul.none{
     font-weight: lighter;
     position:relative;
     float:left;
-    margin:10px 40% 10px auto;
+    margin:10px 181px 10px 108px;
 
 }
 .loading{
     background-color: rgba(184,158,118,0.75);
-    width:70%;
+    width:364px;
     height:25px;
     box-sizing: border-box;
     border-radius: 8px;
     border:rgba(164,138,98,1) 4px solid;
     overflow: hidden;
-    position:relative;
-    left:10%;
+    margin:0px 104px 0px 64px;
 }
 #pr1{
     height:25px;
